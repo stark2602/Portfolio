@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!--font awesome-->
+ 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+       />
+        <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "gr4gPduHTRYkJDjuL",
+      });
+   })();
+</script>
+
+
+
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Mayank</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Overall</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Mayank</span><br> Web Designer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/mayank-pratap-singh-032329229/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/stark2602" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="my pic.JPG" alt="" style="height: 450px; width: 325px;">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="my pic.JPG" alt="" style="height: 450px; width: 325px;">
+
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Mayank Pratap Singh</h2>
+                        <p class="about__text">A passionate and driven B.Tech student specializing in Electronics and Communication Engineering at NIT Durgapur. With a solid foundation in programming languages like C++, Java, and extensive hands-on experience with blockchain development, I am dedicated to creating innovative, secure, and efficient solutions. I have developed a range of projects, from blockchain-based crowdfunding platforms to resource management systems, all using cutting-edge technologies and best practices.<br>
+                        I believe in continuous learning and always strive to stay ahead by exploring new tools, frameworks, and technologies. When I’m not coding, I enjoy collaborating with teams to bring projects to life and mentoring others on best practices in development.
+                            
+                            </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">I deliver scalable, user-centric solutions in full-stack and blockchain development, ensuring seamless frontend and backend integration with a strategic, efficiency-focused approach.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html"></div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon'></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js"></div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-c-plus-plus skills__icon'></i>
+                                <span class="skills__name">C++</span>
+                            </div>
+                            <div class="skills__bar skills__cpp"></div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-java skills__icon'></i>
+                                <span class="skills__name">Java</span>
+                            </div>
+                            <div class="skills__bar skills__java"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-block skills__icon'></i>
+                                <span class="skills__name">Angular</span>
+                            </div>
+                            <div class="skills__bar skills__angular"></div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-bootstrap skills__icon'></i>
+                                <span class="skills__name">Bootstrap</span>
+                            </div>
+                            <div class="skills__bar skills__bootstrap"></div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-server skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__sql"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-network-chart skills__icon'></i>
+                                <span class="skills__name">Blockchain</span>
+                            </div>
+                            <div class="skills__bar skills__blockchain"></div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-brain skills__icon'></i>
+                                <span class="skills__name">DSA</span>
+                            </div>
+                            <div class="skills__bar skills__dsa"></div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-block skills__icon'></i> <!-- OOPs Icon -->
+                                <span class="skills__name">OOPs</span>
+                            </div>
+                            <div class="skills__bar skills__oops"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-desktop skills__icon'></i> <!-- OS Icon -->
+                                <span class="skills__name">Operating System</span>
+                            </div>
+                            <div class="skills__bar skills__os"></div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-data skills__icon'></i> <!-- DBMS Icon -->
+                                <span class="skills__name">DBMS</span>
+                            </div>
+                            <div class="skills__bar skills__dbms"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-task skills__icon'></i>
+                                <span class="skills__name">Agile (Scrum)</span>
+                            </div>
+                            <div class="skills__bar skills__agile"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-network-chart skills__icon'></i>
+                                <span class="skills__name">RESTful APIs</span>
+                            </div>
+                            <div class="skills__bar skills__restful"></div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <h2 class="skills__subtitle">Other Skills</h2>
+                        <p class="skills__text">In addition to technical expertise, I excel in collaboration, leadership, and critical thinking, ensuring well-rounded project success.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-group skills__icon'></i>
+                                <span class="skills__name">Teamwork</span>
+                            </div>
+                            <div class="skills__bar skills__teamwork"></div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-group skills__icon'></i>
+                                <span class="skills__name">Leadership</span>
+                            </div>
+                            <div class="skills__bar skills__leadership"></div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  
+                </div>
+            </section>
+            <!-- 22
+               ↗ 
+
+
+ 
+            222 -->
+             <!--===== WORK =====-->
+             <section class="work section" id="work">
+                <h2 class="section-title">College Timeline</h2>
+            
+                <div class="wrapper">
+                    <div class="center-line">
+                        <a href="work" class="scroll-icon">
+                            <i class="icon fas fa-star"></i> 
+                        </a>
+                    </div>
+                    <div class="row row-1">                      
+                        <section class="card">  
+                          <div class="card-body">
+                            <h5 class="card-title">Inducted in ISTE</h5>
+                            <h6 class="card-subtitle">Jan 2022</h6>
+                            <p class="card-text">I joined the ISTE Student Chapter at NIT Durgapur as a Graphics Designer, marking the beginning of my journey in graphic design and web development.</p>
+                            <div class="bottom">
+                              <a href="https://drive.google.com/file/d/1EKe8wucIALgpaB9u4X7DQk1PTDSpOl3t/view?usp=sharing">Certificate</a>
+                              
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+
+                      <div class="row row-2">                      
+                        <section class="card">  
+                          <div class="card-body">
+                            <h5 class="card-title">Inducted in MNTC</h5>
+                            <h6 class="card-subtitle">Jan 2022</h6>
+                            <p class="card-text">I joined the MNTC as a Graphics Designer, marking the beginning of my journey in graphic design and web development.</p>
+                            <div class="bottom">
+                              <a href="https://drive.google.com/file/d/18ThL2njhOn7V8r_i0-2z0e3OkqUW-nFM/view?usp=sharing">Certificate</a>
+                              
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+
+                    <div class="row row-1">
+                        
+                        <section class="card">
+                            
+                          <div class="card-body">
+                            <h5 class="card-title">College Papers</h5>
+                            <h6 class="card-subtitle">April 2022 - May 2022</h6>
+                            <p class="card-text">• Created a comprehensive website to host past semester exam
+                                papers, facilitating last-minute revision for students.
+                                 Implemented the frontend using HTML, CSS, JavaScript, and
+                                Bootstrap, ensuring a user-friendly interface.
+                                 Enhanced student preparation by providing easy access to previous exam
+                                papers, leading to better academic performance</p>
+                            <div class="bottom">
+                              <a href="https://github.com/stark2602/college_paper">Github Repo</a>
+                              
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      
+                      <div class="row row-2">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Front End Development • Internship </h5>
+                            <h6 class="card-subtitle">Jun 2022 - Jul 2022</h6>
+                            <p class="card-text">Kartexa, Virtual<br>
+                                Completed an internship with an e-commerce platform, contributing to web page management and adding new functionalities. Gained
+                                hands-on experience in building and maintaining e-commerce websites. Recognized for strong performance and valuable contributions
+                                throughout the internship.</p>
+                            <div class="bottom">
+                             
+                              <a href="https://drive.google.com/file/d/1FW8Y4-h2vS1uINvZcotnXTztSc0uWVS2/view?usp=sharing">Certificate</a>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="row row-1">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Senior Cordinator - ISTE SC NIT DGP</h5>
+                            <h6 class="card-subtitle">August 2023</h6>
+                            <p class="card-text">As a Senior Coordinator, I took on the responsibility of guiding and mentoring junior members, streamlining workflows, and ensuring effective communication within the team. My role involved organizing events, managing resources, and fostering collaboration to achieve collective goals successfully</p>
+                          
+                          </div>
+                        </section>
+                      </div>
+                      <!-- . -->
+                      <div class="row row-2">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Senior Cordinator -MNTC </h5>
+                            <h6 class="card-subtitle">August 2023</h6>
+                            <p class="card-text">
+                                As a Senior Coordinator, I took on the responsibility of guiding and mentoring junior members, streamlining workflows, and ensuring effective communication within the team. My role involved organizing events, managing resources, and fostering collaboration to achieve collective goals successfully.</p>
+                           
+                          </div>
+                        </section>
+                      </div>
+
+                      <div class="row row-1">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Inter NIT Hockey Tournament 2023 -Mens(NIT Calicut)</h5>
+                            <h6 class="card-subtitle">Jan 2023</h6>
+                            <p class="card-text">
+                                After dedicated practice and skill development, I was selected for the hockey team through rigorous fitness and skill-based trials. I played as a defender in the tournament and stepped in as a goalkeeper for one match. My leadership skills and commitment to the game earned me the position of Vice-Captain of the team.
+                            </p>
+                            <div class="bottom">
+                             
+                              <a href="https://drive.google.com/file/d/1YXjGQ98bWmTsXH8Hfz-l-SH06bn71g3O/view?usp=drive_link">Certificate</a>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="row row-2">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Traffic Light Detection Project</h5>
+                            <h6 class="card-subtitle">Jan 2023 - Feb 2023</h6>
+                            <p class="card-text">
+                                Implemented a YOLO (You Only Look Once) algorithm to classify
+traffic light states in static images and real-time video streams,
+achieving over 90% accuracy. Leveraged datasets from Kaggle
+for training and validation, with OpenCV for real-time processing
+and feature extraction. Enhanced model robustness by
+preprocessing and optimizing a dataset comprising 20+ diverse
+data types. Utilized HSV color space segmentation with precise
+upper and lower bounds for red, yellow, and green colors,
+ensuring reliable detection under challenging weather and low
+visibility conditions.
+                            </p>
+                            <div class="bottom">
+                             
+                              <a href="https://github.com/stark2602/traffic-light-detection">Github Repo</a>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+
+
+                      <div class="row row-1">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title"> 3d Modelling Of NIIFT files</h5>
+                            <h6 class="card-subtitle">May 2023 - Jul 2023</h6>
+                            <p class="card-text">
+                                Developing software to generate 3D models from NIfTI (.nii.gz)
+                                files, enabling advanced visualization and analysis of medical
+                                imaging data. The system integrates 3D rendering techniques
+                                and leverages machine learning models to highlight
+                                abnormalities such as tumors, enhancing diagnostic precision.
+                                By reconstructing accurate 3D representations of organs, the
+                                project aims to support medical research and improve early
+                                detection of diseases.
+                            </p>
+                            <div class="bottom">
+                             
+                              <a href="https://github.com/stark2602/project">Github Repo</a>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="row row-2">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title"> Got Summer Internship </h5>
+                            <h6 class="card-subtitle">sept 2023</h6>
+                            <p class="card-text">
+                               I got summer internship offer by PwC India. 
+                            </p>
+                            
+                          </div>
+                        </section>
+                      </div>
+                      <div class="row row-1">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title"> Library Management System 
+                            </h5>
+                            <h6 class="card-subtitle">Jan 2024 - Mar 2024                            </h6>
+                            <p class="card-text">
+                                • Designed and implemented RESTful APIs using ASP.NET Core,
+                                supporting CRUD operations for books, authors, members, and
+                                loans.  Used Optimized Entity Framework Core models and
+                                database schema for efficient data management and integrity. 
+                                Configured CORS policies to enable secure cross-origin requests
+                                and resolved related issues. <br>• Technologies: ASP.NET Core,
+                                Entity Framework Core, SQL Server, Swagger, Postman
+                            </p>
+                            <div class="bottom">
+                             
+                              <a href="https://github.com/stark2602/libmangentsys">Github Repo</a>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="row row-2">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Inter NIT Hockey Tournament 2024 -Mens(NIT Trichy)</h5>
+                            <h6 class="card-subtitle">Jan 2023</h6>
+                            <p class="card-text">
+                                After dedicated practice and skill development, I was selected for the hockey team through rigorous fitness and skill-based trials. I played as a goalkeeper in the tournament. My leadership skills and commitment to the game earned me the position of Vice-Captain of the team.
+                            </p>
+                            <div class="bottom">
+                             
+                              <a href="https://drive.google.com/file/d/1YXjGQ98b4556WmTsXH8Hfz-l-SH06bn71g3O/view?usp=drive_link">Certificate</a>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="row row-1">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Convenor - ISTE SC NIT DGP</h5>
+                            <h6 class="card-subtitle">May 2024</h6>
+                            <p class="card-text">Present I led the organization of 10+ events (2022–2024), ensuring seamless
+                                execution through efficient team coordination. I spearheaded website design, development, and updates, enhancing user experience,
+                                and drove LinkedIn growth from 270 to 2.5k followers via strategic campaigns. Additionally, I managed event logistics, budgets, and
+                                cross-functional collaboration, fostering team cohesion and mentoring new members.</p>
+                          
+                          </div>
+                        </section>
+                      </div>
+                      <!-- . -->
+                      <div class="row row-2">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Vice-President -MNTC </h5>
+                            <h6 class="card-subtitle">May 2024</h6>
+                            <p class="card-text">
+                                Present Led the planning and promotion of 10+ events and workshops
+                                (2022–2024), including the Techno-Management Fest "Arrohan", second largest in eastern India. Managed social media strategy and
+                                content for Facebook, Instagram, LinkedIn, and the website, driving follower growth from 200 to 1k on LinkedIn and 3k to 6k on
+                                Facebook.</p>
+                           
+                          </div>
+                        </section>
+                      </div>
+                      <div class="row row-1">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title"> PwC Summer Internship 
+                            </h5>
+                            <h6 class="card-subtitle">May 2024 - July 2024                            </h6>
+                            <p class="card-text">
+                                •  Engineered a comprehensive resource allocation system leveraging Angular, ASP.NET Framework, and Microsoft SQL Server;
+                                conceptualized and implemented dynamic tracking mechanisms and skill-based assignment algorithms, significantly enhancing
+                                administrative oversight, streamlining project workflows, and optimizing resource utilization for improved operational efficiency. <br>
+                                • Tech
+                                stack used : Angular, Bootstrap ,ASP .NET Framework,Agile ,DBMS,SQL
+                            </p>
+                            <div class="bottom">
+                             
+                              <a href="https://github.com/stark2602/libmangentsys">Github Repo</a>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <div class="row row-2">
+                        <section class="card">
+                          <div class="card-body">
+                            <h5 class="card-title"> Crowdfunding Platform
+
+                            </h5>
+                            <h6 class="card-subtitle">Sep 2024 - Oct 2024
+                            </h6>
+                            <p class="card-text">
+                                Engineered and deployed a decentralized crowdfunding platform
+                                on the Polygon blockchain, leveraging Solidity smart contracts
+                                and Hardhat for seamless contract development and
+                                deployment. Designed a responsive user interface using Next.js
+                                and styled-components, enabling category-based campaign
+                                filtering. Integrated IPFS for decentralized data storage and
+                                utilized Ether.js for secure wallet integration and blockchain
+                                interaction.
+                                
+                            </p>
+                            <div class="bottom">
+                             
+                              <a href="https://github.com/stark2602/libmangentsys">Github Repo</a>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                      <!-- 
+                     
+
+
+ -->
+                      
+                    </div>
+                    
+            </section>
+            <script src="script2.js"></script>
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+
+                    <form class="contact__form" onsubmit="return validateForm(event)">
+                <p class="skills__text">Want to say something, just fill N send</p>
+
+                        <input type="text" id="name" placeholder="Name" class="contact__input">
+                        <input type="email" id="email" placeholder="Email" class="contact__input">
+                        <span id="emailError" style="color: red; font-size: 12px;"></span>
+                        <input type="text" id="mobile" placeholder="Mobile" class="contact__input">
+                        <span id="mobileError" style="color: red; font-size: 12px;"></span>
+                        <textarea id="message" cols="0" rows="5" class="contact__input" placeholder="Message"></textarea>
+                        <button type="submit" class="contact__button button">Send</button>
+
+                    </form>
+                    
+                </div>
+            </section>
+            
+            
+        
+             <script src="script.js"></script>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Mayank</p>
+            <div class="footer__social">
+                <style>
+                    button {
+                      background-color: #4070f4; /* Blue background */
+                      border: none;
+                      padding: 10px 20px;
+                      border-radius: 5px;
+                      cursor: pointer;
+                      transition: background-color 0.3s ease;
+                    }
+                  
+                    button:hover {
+                      background-color: #3058c4; /* Darker blue on hover */
+                    }
+                  
+                    button a {
+                      text-decoration: none;
+                      color: white; /* White text */
+                      font-weight: bold;
+                    }
+                  
+                    button a .footer__icon {
+                      margin-right: 8px; /* Add spacing between icon and text */
+                    }
+                  
+                    button a:hover {
+                      color: #dcdcdc; /* Light gray text on hover */
+                    }
+                  </style>
+                  
+                  <button>
+                    <a href="https://drive.google.com/file/d/1ChZ5Uyn63VHlgRgWpPEGwErnR_ssjSW3/view?usp=sharing" class="footer__icon">
+                      <i class='bx bxl-dropbox'></i> RESUME
+                    </a>
+                  </button>
+                  
+            </div>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
